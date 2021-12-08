@@ -14,7 +14,7 @@ import java.util.Random;
 public class Individual {
 	private int fitness = 0;
 	private List<Integer> genes = new ArrayList<>();
-	public static final int geneLength = 14;
+	public static final int geneLength = 12;
 
 	public Individual() {
 		Random randomNum = new Random();

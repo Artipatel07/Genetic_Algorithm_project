@@ -90,7 +90,7 @@ public class Population {
 	 */
 
 	public int getMaximumFitness() {
-		int fitnessLength = Individual.geneLength - 2;
+		int fitnessLength = Individual.geneLength;
 		return fitnessLength;
 	}
 
