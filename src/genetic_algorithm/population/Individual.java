@@ -3,7 +3,14 @@ package genetic_algorithm.population;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
+/**
+ * 
+ * This class is to generate Individuals for Population and
+ * Each individual has genes and fitness level according to the gene 
+ * 
+ * @author ashi chauhan
+ *
+ */
 public class Individual {
 	private int fitness = 0;
 	private List<Integer> genes = new ArrayList<>();

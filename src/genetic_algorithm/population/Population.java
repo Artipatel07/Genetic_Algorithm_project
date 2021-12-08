@@ -4,16 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * This is the SINGLETON class. As every class in the project should work on the
- * same population class,thats why it employs singleton instance. (i.e.,) it has
- * only one instance to work on the same data throughout the project. I have
- * implemented thread safe lazy initialization using wrapperClass because I want
- * to have the Population instance to be created only if the Genetic Algorithm
- * Runner class starts running (i.e.,) only when the application starts running
- * 
- * @author AISHWARYA SUKALE,20251514: 
- */
+
 public class Population {
 
 	private List<Individual> individuals = new ArrayList<>();
@@ -21,7 +12,8 @@ public class Population {
 	private Individual secondFittestIndividual;
 	private int populationSize = 0;
 	private int fittest = 0;
-	private static Population _instance =null;
+	private static Population _instance = null;
+	int maximumFitIndex = 0;
 	// Single Instance concurrency across the application is maintained as every
 	// class is working on the same population.
 	// Making the constructor private so that only one instance of the Population
@@ -35,9 +27,13 @@ public class Population {
 	// private _instance variable which will load Population object only when it is
 	// called through getInstance()
 	public static Population getInstance() {
-		
 		if (_instance == null) {
-			_instance = new Population();
+			// synchronized block to remove overhead
+			synchronized (Population.class) {
+				if (_instance == null) {
+					_instance = new Population();
+				}
+			}
 		}
 		return _instance;
 	}
@@ -52,7 +48,7 @@ public class Population {
 		if (initialise) {
 			for (int i = 0; i < size; i++) {
 				tempArray.add(new Individual());
-				//tempArray[i] = new Individual();
+				// tempArray[i] = new Individual();
 			}
 			this.setIndividuals(tempArray);
 		}
@@ -64,7 +60,7 @@ public class Population {
 		for (int i = 0; i < getPopulationSize(); i++) {
 			getIndividuals().get(i).calculateIndividualFitness();
 		}
-		getMostFittest();
+		setMostFittest();
 	}
 
 	/**
@@ -72,10 +68,8 @@ public class Population {
 	 * 
 	 * @return Individual
 	 */
-
-	public Individual getMostFittest() {
+	public void setMostFittest() {
 		int maximumFit = Integer.MIN_VALUE;
-		int maximumFitIndex = 0;
 		for (int i = 0; i < getPopulationSize(); i++) {
 			if (maximumFit <= getIndividuals().get(i).getFitness()) {
 				maximumFit = getIndividuals().get(i).getFitness();
@@ -83,6 +77,9 @@ public class Population {
 			}
 		}
 		setFittest(getIndividuals().get(maximumFitIndex).getFitness());
+		
+	}
+	public Individual getMostFittest() {
 		return getIndividuals().get(maximumFitIndex);
 	}
 
@@ -93,7 +90,7 @@ public class Population {
 	 */
 
 	public int getMaximumFitness() {
-		int fitnessLength = Individual.geneLength-2;
+		int fitnessLength = Individual.geneLength - 2;
 		return fitnessLength;
 	}
 
@@ -136,7 +133,7 @@ public class Population {
 	}
 
 	/** Each Individual in a population **/
-	
+
 	/**
 	 * getter for the Object of each Individual.
 	 * 
@@ -149,6 +146,7 @@ public class Population {
 
 	/**
 	 * setter for the Object of each Individual.
+	 * 
 	 * @param individuals
 	 */
 
@@ -167,6 +165,7 @@ public class Population {
 
 	/**
 	 * setter for population size
+	 * 
 	 * @param populationSize set value of the fitness of population
 	 */
 	public void setPopulationSize(int populationSize) {

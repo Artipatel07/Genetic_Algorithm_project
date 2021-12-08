@@ -1,11 +1,6 @@
 WELCOME TO GENETIC ALGORITHM DEMO
 
 
-/** Team Members: **/
-
-1)AJAY GOVINDASAMY,20251024
-2)AISHWARYA ARUN SUKALE,20251514
-3)HRITIK GUPTA,20251132
 
 All of the the above mentioned authors have contributed equally i.e 100% in the development of Genetic Algorithm project.
 
@@ -23,60 +18,6 @@ The project contains six packages in Total.
 
 OUTPUT OF THE PROJECT :
 
-Generation: 1 Fittest: 5
-Generation: 2 Fittest: 5
-Generation: 3 Fittest: 4
-Generation: 4 Fittest: 6
-Generation: 5 Fittest: 5
-Generation: 6 Fittest: 5
-Generation: 7 Fittest: 5
-Generation: 8 Fittest: 5
-Generation: 9 Fittest: 5
-Generation: 10 Fittest: 6
-Generation: 11 Fittest: 5
-Generation: 12 Fittest: 5
-Generation: 13 Fittest: 4
-Generation: 14 Fittest: 5
-Generation: 15 Fittest: 5
-Generation: 16 Fittest: 5
-Generation: 17 Fittest: 5
-Generation: 18 Fittest: 4
-Generation: 19 Fittest: 5
-Generation: 20 Fittest: 5
-Generation: 21 Fittest: 5
-Generation: 22 Fittest: 5
-Generation: 23 Fittest: 5
-Generation: 24 Fittest: 7
-Generation: 25 Fittest: 5
-Generation: 26 Fittest: 5
-Generation: 27 Fittest: 5
-Generation: 28 Fittest: 4
-Generation: 29 Fittest: 4
-Generation: 30 Fittest: 4
-Generation: 31 Fittest: 4
-Generation: 32 Fittest: 4
-Generation: 33 Fittest: 6
-Generation: 34 Fittest: 6
-Generation: 35 Fittest: 4
-Generation: 36 Fittest: 4
-Generation: 37 Fittest: 3
-Generation: 38 Fittest: 3
-Generation: 39 Fittest: 4
-Generation: 40 Fittest: 6
-Generation: 41 Fittest: 5
-Generation: 42 Fittest: 5
-Generation: 43 Fittest: 6
-Generation: 44 Fittest: 6
-Generation: 45 Fittest: 6
-Generation: 46 Fittest: 5
-Generation: 47 Fittest: 5
-Generation: 48 Fittest: 5
-Generation: 49 Fittest: 6
-Generation: 50 Fittest: 6
-Generation: 51 Fittest: 8
-Solution found in generation 51
-Fitness: 8
-Genes: 11111111
 
 
 --> The above output states that we have found the solution which means maximum fitness function f(x) for the Genetic Algorithm problem in the 51st Generation
