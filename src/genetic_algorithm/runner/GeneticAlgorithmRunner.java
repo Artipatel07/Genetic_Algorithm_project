@@ -2,11 +2,12 @@ package genetic_algorithm.runner;
 
 import java.io.*;
 
+
 import java.util.List;
 
 import genetic_algorithm.factory.GeneticConfigurationFactory;
 import genetic_algorithm.factory.GeneticConfigurationFactory.OperationType;
-import genetic_algorithm.factory.GeneticConfigurationFactory.PointType;
+
 import genetic_algorithm.factory.GeneticFactory;
 import genetic_algorithm.population.Individual;
 import genetic_algorithm.population.Population;
@@ -39,8 +40,8 @@ public class GeneticAlgorithmRunner {
 	public static void main(String[] args) {
 
 		population = Population.getInstance();
-
-		GeneticFactory configurationFactory = new GeneticConfigurationFactory();
+		
+		GeneticConfigurationFactory configurationFactory = new GeneticConfigurationFactory();
 
 		// Initialize the population
 		population.initialPopulation(5, true);
@@ -85,7 +86,9 @@ public class GeneticAlgorithmRunner {
 				 * Strategy Design pattern to allow different GA Selection,Crossover or Mutation
 				 * Implementations(or strategies) at run-time
 				 **/
-				configurationFactory.executeGeneticOperations(OperationType.RANK, PointType.ONE, population);
+				// GAfactoryConfig.executeGeneticOperations(SelectionType.RANK, PointType.ONE);
+				
+				configurationFactory.executeGeneticOperations( population);
 
 				// calculate new fitness of the Individuals
 				writer.write("\n---------------------------------------------------------------------------------");
@@ -95,17 +98,19 @@ public class GeneticAlgorithmRunner {
 						+ population.getFittest());
 				System.out.println(
 						"Generation: # " + generationCount + " Fittest Individual fitness: " + population.getFittest());
-				writer.write("\nTARGET INDIVIDUAL :[1 1 1 1 1 1 1 1 1 1 1 1]");
-				System.out.println("TARGET INDIVIDUAL :[1 1 1 1 1 1 1 1 1 1 1 1]");
+				writer.write(
+						"\nTARGET INDIVIDUAL : Number of 1's should be atleast 10] \nExample of TARGET INDIVIDUAL :[1 0 1 1 1 1 1 1 0 1]");
+				System.out.println(
+						"TARGET INDIVIDUAL : Number of 1's should be atleast 10]\nExample of TARGET INDIVIDUAL :[1 0 1 1 1 1 1 1 0 1]");
 
 				// prints the population
 
 				for (int i = 0; i < population.getPopulationSize(); i++) {
 
 					List<Integer> genes = (List<Integer>) population.getIndividuals().get(i).getGenes();
-					writer.write("\nIndividual # " + (i+1) + " " + genes + " | Fitness : "
+					writer.write("\nIndividual # " + (i + 1) + " " + genes + " | Fitness : "
 							+ population.getIndividuals().get(i).getFitness());
-					System.out.println("Individual # " + (i+1) + " " + genes + " | Fitness : "
+					System.out.println("Individual # " + (i + 1) + " " + genes + " | Fitness : "
 							+ population.getIndividuals().get(i).getFitness());
 
 				}
@@ -122,7 +127,7 @@ public class GeneticAlgorithmRunner {
 			System.out.print("Genes: ");
 			writer.write("[");
 			for (int i = 0; i < Individual.geneLength; i++) {
-				writer.write(population.getMostFittest().getGenes().get(i)+", ");
+				writer.write(population.getMostFittest().getGenes().get(i) + ", ");
 				System.out.print(population.getMostFittest().getGenes().get(i));
 			}
 			writer.write("]");

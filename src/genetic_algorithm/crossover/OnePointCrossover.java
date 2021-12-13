@@ -9,7 +9,6 @@ import genetic_algorithm.population.Population;
  * This class is used to take one single point from the parents and to swap the
  * genes to perform the crossover operation, it implements @see GeneticFunctions
  *
- * @author PRIYANKA DUDHE ,20251024
  */
 
 public class OnePointCrossover implements Crossover {

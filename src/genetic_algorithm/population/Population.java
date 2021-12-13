@@ -90,12 +90,12 @@ public class Population {
 	 */
 
 	public int getMaximumFitness() {
-		int fitnessLength = Individual.geneLength;
+		int fitnessLength = Individual.geneLength - 2;
 		return fitnessLength;
 	}
 
 	/**
-	 * function to get the second most fittest individual among the population
+	 * function to get the second most fit-test individual among the population
 	 * 
 	 * @return Individual
 	 */

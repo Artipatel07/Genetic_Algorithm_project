@@ -3,14 +3,7 @@ package genetic_algorithm.population;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-/**
- * 
- * This class is to generate Individuals for Population and
- * Each individual has genes and fitness level according to the gene 
- * 
- * @author ashi chauhan
- *
- */
+
 public class Individual {
 	private int fitness = 0;
 	private List<Integer> genes = new ArrayList<>();
@@ -18,14 +11,14 @@ public class Individual {
 
 	public Individual() {
 		Random randomNum = new Random();
-		// Set genes randomly for each of the individual
+		// for each of the individual setting genes randomly 
 		for (int i = 0; i < geneLength; i++) {
 			getGenes().add(Math.abs(randomNum.nextInt() % 2));
 		}
 		setFitness(0);
 	}
 
-	// Calculate Individual fitness
+	// here Calculated Individual fitness
 	public void calculateIndividualFitness() {
 	
 		int fitnessCount=0;
@@ -37,7 +30,7 @@ public class Individual {
 		setFitness(fitnessCount);
 	}
 	
-	/** All the getters and setters invocation **/
+	/** All the getters and setters request**/
 
 	/**
 	 * getter for the fitness of each Individual
@@ -65,26 +58,6 @@ public class Individual {
 	 * @return gene length
 	 */
 
-//	public int getGeneLength() {
-//		return geneLength;
-//	}
-//
-//	/**
-//	 * setter for length of the genes(Chromosome)
-//	 * 
-//	 * @param geneLength
-//	 */
-//
-//	public void setGeneLength(int geneLength) {
-//		this.geneLength = geneLength;
-//	}
-//
-//	/**
-//	 * getter for genes(Chromosomes)
-//	 * 
-//	 * @return genes
-//	 */
-//
 	public List<Integer> getGenes() {
 		return genes;
 	}
