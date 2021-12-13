@@ -6,9 +6,7 @@ import java.io.*;
 import java.util.List;
 
 import genetic_algorithm.factory.GeneticConfigurationFactory;
-import genetic_algorithm.factory.GeneticConfigurationFactory.OperationType;
 
-import genetic_algorithm.factory.GeneticFactory;
 import genetic_algorithm.population.Individual;
 import genetic_algorithm.population.Population;
 
@@ -99,9 +97,9 @@ public class GeneticAlgorithmRunner {
 				System.out.println(
 						"Generation: # " + generationCount + " Fittest Individual fitness: " + population.getFittest());
 				writer.write(
-						"\nTARGET INDIVIDUAL : Number of 1's should be atleast 10] \nExample of TARGET INDIVIDUAL :[1 0 1 1 1 1 1 1 0 1]");
+						"\nTARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]");
 				System.out.println(
-						"TARGET INDIVIDUAL : Number of 1's should be atleast 10]\nExample of TARGET INDIVIDUAL :[1 0 1 1 1 1 1 1 0 1]");
+						"TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]");
 
 				// prints the population
 
@@ -127,7 +125,7 @@ public class GeneticAlgorithmRunner {
 			System.out.print("Genes: ");
 			writer.write("[");
 			for (int i = 0; i < Individual.geneLength; i++) {
-				writer.write(population.getMostFittest().getGenes().get(i) + ", ");
+				writer.write(population.getMostFittest().getGenes().get(i) + " ");
 				System.out.print(population.getMostFittest().getGenes().get(i));
 			}
 			writer.write("]");

@@ -1,6 +1,7 @@
 package genetic_algorithm.population;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -9,9 +10,26 @@ public class Individual {
 	private List<Integer> genes = new ArrayList<>();
 	public static final int geneLength = 12;
 
+	public static final List<Integer> FINAL_LIST = Collections.unmodifiableList(
+		    new ArrayList<Integer>() {{
+		        add(1);
+		        add(0);
+		        add(1);
+		        add(0);
+		        add(1);
+		        add(0);
+		        add(1);
+		        add(0);
+		        add(1);
+		        add(0);
+		        add(1);
+		        add(0);
+		        
+		    }});
+
 	public Individual() {
 		Random randomNum = new Random();
-		// for each of the individual setting genes randomly 
+		// for each of the individual setting genes randomly
 		for (int i = 0; i < geneLength; i++) {
 			getGenes().add(Math.abs(randomNum.nextInt() % 2));
 		}
@@ -20,17 +38,17 @@ public class Individual {
 
 	// here Calculated Individual fitness
 	public void calculateIndividualFitness() {
-	
-		int fitnessCount=0;
+
+		int fitnessCount = 0;
 		for (int i = 0; i < geneLength; i++) {
-			if (getGenes().get(i) == 1) {
-				++fitnessCount;
+			if (getGenes().get(i) == FINAL_LIST.get(i)) {
+				fitnessCount++;
 			}
 		}
 		setFitness(fitnessCount);
 	}
-	
-	/** All the getters and setters request**/
+
+	/** All the getters and setters request **/
 
 	/**
 	 * getter for the fitness of each Individual
@@ -73,4 +91,3 @@ public class Individual {
 	}
 
 }
-

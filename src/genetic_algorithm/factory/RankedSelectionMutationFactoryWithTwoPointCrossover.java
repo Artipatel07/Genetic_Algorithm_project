@@ -2,7 +2,6 @@ package genetic_algorithm.factory;
 
 import genetic_algorithm.crossover.Crossover;
 import genetic_algorithm.crossover.TwoPointCrossover;
-import genetic_algorithm.factory.GeneticConfigurationFactory.OperationType;
 import genetic_algorithm.mutation.Mutation;
 import genetic_algorithm.mutation.SubstituteMutation;
 import genetic_algorithm.population.Population;
