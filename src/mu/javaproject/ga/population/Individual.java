@@ -1,6 +1,7 @@
 package mu.javaproject.ga.population;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
@@ -15,23 +16,8 @@ public class Individual {
 	 * unmodifiable List elements
 	 */
 
-	public static final List<Integer> FINAL_LIST = Collections.unmodifiableList(new ArrayList<Integer>() {
-		{
-			add(1);
-			add(0);
-			add(1);
-			add(0);
-			add(1);
-			add(0);
-			add(1);
-			add(0);
-			add(1);
-			add(0);
-			add(1);
-			add(0);
-
-		}
-	});
+	public static final List<Integer> FINAL_LIST = Collections.unmodifiableList(
+			new ArrayList<Integer>(Arrays.asList(1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0)));
 
 	public Individual() {
 		Random randomNum = new Random();
