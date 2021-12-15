@@ -1,229 +1,197 @@
 *************************This is the output of the Genetic algorithm********************
 
-Generation: #1 Fittest: 7
-Individual # 0 [1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1] | Fitness : 4
-Individual # 1 [0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0] | Fitness : 7
-Individual # 2 [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1] | Fitness : 5
-Individual # 3 [0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0] | Fitness : 6
-Individual # 4 [0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0] | Fitness : 5
+Generation: #1 Fittest: 10
+Individual # 0 [0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0] | Fitness : 7
+Individual # 1 [0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1] | Fitness : 5
+Individual # 2 [1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0] | Fitness : 10
+Individual # 3 [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0] | Fitness : 5
+Individual # 4 [0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1] | Fitness : 6
 ---------------------------------------------------------------------------------
-Generation: # 2 Fittest Individual fitness: 7
+Generation: # 2 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1] | Fitness : 4
-Individual # 2 [0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0] | Fitness : 7
-Individual # 3 [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1] | Fitness : 5
-Individual # 4 [0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0] | Fitness : 6
-Individual # 5 [0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0] | Fitness : 5
+Individual # 1 [0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0] | Fitness : 7
+Individual # 2 [0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0] | Fitness : 6
+Individual # 3 [0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0] | Fitness : 8
+Individual # 4 [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0] | Fitness : 5
+Individual # 5 [0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1] | Fitness : 6
 ---------------------------------------------------------------------------------
-Generation: # 3 Fittest Individual fitness: 7
+Generation: # 3 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0] | Fitness : 7
-Individual # 2 [0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0] | Fitness : 4
-Individual # 3 [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1] | Fitness : 5
-Individual # 4 [0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0] | Fitness : 6
-Individual # 5 [0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0] | Fitness : 5
+Individual # 1 [0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0] | Fitness : 8
+Individual # 2 [0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0] | Fitness : 6
+Individual # 3 [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0] | Fitness : 7
+Individual # 4 [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0] | Fitness : 5
+Individual # 5 [0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1] | Fitness : 6
 ---------------------------------------------------------------------------------
-Generation: # 4 Fittest Individual fitness: 6
+Generation: # 4 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1] | Fitness : 5
-Individual # 2 [0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0] | Fitness : 4
-Individual # 3 [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1] | Fitness : 5
-Individual # 4 [0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0] | Fitness : 6
-Individual # 5 [0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0] | Fitness : 5
+Individual # 1 [0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0] | Fitness : 8
+Individual # 2 [0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0] | Fitness : 6
+Individual # 3 [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0] | Fitness : 7
+Individual # 4 [0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0] | Fitness : 5
+Individual # 5 [1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1] | Fitness : 6
 ---------------------------------------------------------------------------------
-Generation: # 5 Fittest Individual fitness: 7
+Generation: # 5 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1] | Fitness : 4
-Individual # 2 [0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0] | Fitness : 4
-Individual # 3 [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1] | Fitness : 5
-Individual # 4 [0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0] | Fitness : 7
-Individual # 5 [0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0] | Fitness : 5
+Individual # 1 [0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0] | Fitness : 8
+Individual # 2 [0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0] | Fitness : 6
+Individual # 3 [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0] | Fitness : 6
+Individual # 4 [0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0] | Fitness : 5
+Individual # 5 [1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1] | Fitness : 6
 ---------------------------------------------------------------------------------
-Generation: # 6 Fittest Individual fitness: 9
+Generation: # 6 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1] | Fitness : 4
-Individual # 2 [0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0] | Fitness : 4
-Individual # 3 [1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1] | Fitness : 3
-Individual # 4 [0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0] | Fitness : 9
-Individual # 5 [0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0] | Fitness : 5
+Individual # 1 [0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0] | Fitness : 8
+Individual # 2 [0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0] | Fitness : 6
+Individual # 3 [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0] | Fitness : 6
+Individual # 4 [0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0] | Fitness : 5
+Individual # 5 [1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1] | Fitness : 6
 ---------------------------------------------------------------------------------
-Generation: # 7 Fittest Individual fitness: 9
+Generation: # 7 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1] | Fitness : 6
-Individual # 2 [0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0] | Fitness : 4
-Individual # 3 [1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1] | Fitness : 3
-Individual # 4 [0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0] | Fitness : 9
-Individual # 5 [0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0] | Fitness : 5
+Individual # 1 [0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0] | Fitness : 8
+Individual # 2 [0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0] | Fitness : 6
+Individual # 3 [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0] | Fitness : 6
+Individual # 4 [1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 5 [0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1] | Fitness : 3
 ---------------------------------------------------------------------------------
-Generation: # 8 Fittest Individual fitness: 10
+Generation: # 8 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1] | Fitness : 5
-Individual # 2 [0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0] | Fitness : 4
-Individual # 3 [1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1] | Fitness : 3
-Individual # 4 [0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0] | Fitness : 10
-Individual # 5 [0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0] | Fitness : 5
+Individual # 1 [0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1] | Fitness : 8
+Individual # 2 [0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0] | Fitness : 6
+Individual # 3 [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0] | Fitness : 6
+Individual # 4 [1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 5 [0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1] | Fitness : 3
 ---------------------------------------------------------------------------------
-Generation: # 9 Fittest Individual fitness: 10
+Generation: # 9 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1] | Fitness : 5
-Individual # 2 [0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0] | Fitness : 4
-Individual # 3 [1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1] | Fitness : 3
-Individual # 4 [0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0] | Fitness : 10
-Individual # 5 [0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0] | Fitness : 5
+Individual # 1 [0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1] | Fitness : 8
+Individual # 2 [0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0] | Fitness : 6
+Individual # 3 [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0] | Fitness : 6
+Individual # 4 [1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 5 [0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1] | Fitness : 3
 ---------------------------------------------------------------------------------
 Generation: # 10 Fittest Individual fitness: 10
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1] | Fitness : 5
-Individual # 2 [1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0] | Fitness : 6
-Individual # 3 [1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1] | Fitness : 6
-Individual # 4 [0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0] | Fitness : 10
-Individual # 5 [0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0] | Fitness : 5
+Individual # 1 [0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1] | Fitness : 8
+Individual # 2 [1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0] | Fitness : 3
+Individual # 3 [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0] | Fitness : 6
+Individual # 4 [0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0] | Fitness : 10
+Individual # 5 [0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1] | Fitness : 3
 ---------------------------------------------------------------------------------
 Generation: # 11 Fittest Individual fitness: 10
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1] | Fitness : 5
-Individual # 2 [1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0] | Fitness : 6
-Individual # 3 [1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1] | Fitness : 6
-Individual # 4 [0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0] | Fitness : 10
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1] | Fitness : 5
+Individual # 2 [1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0] | Fitness : 3
+Individual # 3 [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0] | Fitness : 6
+Individual # 4 [0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0] | Fitness : 10
+Individual # 5 [0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0] | Fitness : 5
 ---------------------------------------------------------------------------------
-Generation: # 12 Fittest Individual fitness: 9
+Generation: # 12 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1] | Fitness : 5
-Individual # 2 [1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0] | Fitness : 6
-Individual # 3 [0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1] | Fitness : 7
-Individual # 4 [1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0] | Fitness : 9
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1] | Fitness : 5
+Individual # 2 [1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0] | Fitness : 3
+Individual # 3 [0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0] | Fitness : 8
+Individual # 4 [0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0] | Fitness : 8
+Individual # 5 [0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0] | Fitness : 5
 ---------------------------------------------------------------------------------
-Generation: # 13 Fittest Individual fitness: 10
+Generation: # 13 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1] | Fitness : 5
-Individual # 2 [1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0] | Fitness : 6
-Individual # 3 [1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1] | Fitness : 6
-Individual # 4 [0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0] | Fitness : 10
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1] | Fitness : 6
+Individual # 2 [0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1] | Fitness : 3
+Individual # 3 [0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0] | Fitness : 8
+Individual # 4 [0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0] | Fitness : 8
+Individual # 5 [0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0] | Fitness : 5
 ---------------------------------------------------------------------------------
-Generation: # 14 Fittest Individual fitness: 10
+Generation: # 14 Fittest Individual fitness: 9
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1] | Fitness : 4
-Individual # 2 [1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0] | Fitness : 6
-Individual # 3 [1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1] | Fitness : 6
-Individual # 4 [0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0] | Fitness : 10
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1] | Fitness : 7
+Individual # 2 [0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1] | Fitness : 3
+Individual # 3 [0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0] | Fitness : 8
+Individual # 4 [0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0] | Fitness : 9
+Individual # 5 [0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0] | Fitness : 5
 ---------------------------------------------------------------------------------
-Generation: # 15 Fittest Individual fitness: 9
+Generation: # 15 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1] | Fitness : 4
-Individual # 2 [1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0] | Fitness : 7
-Individual # 3 [1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1] | Fitness : 6
-Individual # 4 [0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0] | Fitness : 9
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1] | Fitness : 7
+Individual # 2 [0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1] | Fitness : 3
+Individual # 3 [0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0] | Fitness : 8
+Individual # 4 [0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0] | Fitness : 8
+Individual # 5 [0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0] | Fitness : 5
 ---------------------------------------------------------------------------------
-Generation: # 16 Fittest Individual fitness: 9
+Generation: # 16 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1] | Fitness : 4
-Individual # 2 [1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0] | Fitness : 7
-Individual # 3 [1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1] | Fitness : 6
-Individual # 4 [0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0] | Fitness : 9
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1] | Fitness : 8
+Individual # 2 [0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1] | Fitness : 3
+Individual # 3 [0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0] | Fitness : 8
+Individual # 4 [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0] | Fitness : 7
+Individual # 5 [0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0] | Fitness : 5
 ---------------------------------------------------------------------------------
-Generation: # 17 Fittest Individual fitness: 9
+Generation: # 17 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1] | Fitness : 4
-Individual # 2 [1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0] | Fitness : 7
-Individual # 3 [1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1] | Fitness : 6
-Individual # 4 [0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0] | Fitness : 9
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1] | Fitness : 8
+Individual # 2 [0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1] | Fitness : 3
+Individual # 3 [0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0] | Fitness : 8
+Individual # 4 [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0] | Fitness : 7
+Individual # 5 [0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0] | Fitness : 5
 ---------------------------------------------------------------------------------
-Generation: # 18 Fittest Individual fitness: 9
+Generation: # 18 Fittest Individual fitness: 8
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1] | Fitness : 4
-Individual # 2 [1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0] | Fitness : 9
-Individual # 3 [1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1] | Fitness : 6
-Individual # 4 [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0] | Fitness : 7
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1] | Fitness : 8
+Individual # 2 [0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1] | Fitness : 3
+Individual # 3 [0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0] | Fitness : 8
+Individual # 4 [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0] | Fitness : 7
+Individual # 5 [0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0] | Fitness : 6
 ---------------------------------------------------------------------------------
 Generation: # 19 Fittest Individual fitness: 9
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1] | Fitness : 4
-Individual # 2 [1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0] | Fitness : 9
-Individual # 3 [1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1] | Fitness : 7
-Individual # 4 [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0] | Fitness : 7
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1] | Fitness : 8
+Individual # 2 [1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1] | Fitness : 9
+Individual # 3 [0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0] | Fitness : 3
+Individual # 4 [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0] | Fitness : 7
+Individual # 5 [0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0] | Fitness : 6
 ---------------------------------------------------------------------------------
-Generation: # 20 Fittest Individual fitness: 9
+Generation: # 20 Fittest Individual fitness: 10
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1] | Fitness : 4
-Individual # 2 [1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0] | Fitness : 9
-Individual # 3 [1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1] | Fitness : 7
-Individual # 4 [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0] | Fitness : 7
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1] | Fitness : 8
+Individual # 2 [1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1] | Fitness : 8
+Individual # 3 [0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0] | Fitness : 3
+Individual # 4 [1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0] | Fitness : 10
+Individual # 5 [0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0] | Fitness : 6
 ---------------------------------------------------------------------------------
-Generation: # 21 Fittest Individual fitness: 11
+Generation: # 21 Fittest Individual fitness: 10
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1] | Fitness : 2
-Individual # 2 [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0] | Fitness : 11
-Individual # 3 [1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1] | Fitness : 7
-Individual # 4 [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0] | Fitness : 7
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1] | Fitness : 8
+Individual # 2 [0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1] | Fitness : 6
+Individual # 3 [1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1] | Fitness : 6
+Individual # 4 [1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0] | Fitness : 10
+Individual # 5 [0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0] | Fitness : 6
 ---------------------------------------------------------------------------------
-Generation: # 22 Fittest Individual fitness: 10
+Generation: # 22 Fittest Individual fitness: 11
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0] | Fitness : 5
-Individual # 2 [1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 10
-Individual # 3 [1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1] | Fitness : 7
-Individual # 4 [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0] | Fitness : 7
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1] | Fitness : 7
+Individual # 2 [0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1] | Fitness : 6
+Individual # 3 [1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1] | Fitness : 6
+Individual # 4 [1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0] | Fitness : 11
+Individual # 5 [0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0] | Fitness : 6
 ---------------------------------------------------------------------------------
 Generation: # 23 Fittest Individual fitness: 10
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1] | Fitness : 8
-Individual # 2 [1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 10
-Individual # 3 [1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1] | Fitness : 7
-Individual # 4 [0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0] | Fitness : 5
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1] | Fitness : 8
+Individual # 2 [0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1] | Fitness : 6
+Individual # 3 [1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1] | Fitness : 6
+Individual # 4 [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0] | Fitness : 10
+Individual # 5 [0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0] | Fitness : 6
 ---------------------------------------------------------------------------------
-Generation: # 24 Fittest Individual fitness: 8
+Generation: # 24 Fittest Individual fitness: 12
 TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1] | Fitness : 8
-Individual # 2 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0] | Fitness : 6
-Individual # 3 [1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1] | Fitness : 8
-Individual # 4 [0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0] | Fitness : 5
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
----------------------------------------------------------------------------------
-Generation: # 25 Fittest Individual fitness: 8
-TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1] | Fitness : 8
-Individual # 2 [1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0] | Fitness : 8
-Individual # 3 [1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1] | Fitness : 8
-Individual # 4 [0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0] | Fitness : 5
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
----------------------------------------------------------------------------------
-Generation: # 26 Fittest Individual fitness: 10
-TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0] | Fitness : 10
-Individual # 2 [1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0] | Fitness : 8
-Individual # 3 [1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1] | Fitness : 8
-Individual # 4 [0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0] | Fitness : 5
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
----------------------------------------------------------------------------------
-Generation: # 27 Fittest Individual fitness: 10
-TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0] | Fitness : 10
-Individual # 2 [1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0] | Fitness : 8
-Individual # 3 [1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1] | Fitness : 8
-Individual # 4 [0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0] | Fitness : 5
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
----------------------------------------------------------------------------------
-Generation: # 28 Fittest Individual fitness: 12
-TARGET INDIVIDUAL : [1 0 1 0 1 0 1 0 1 0 1 0]
-Individual # 1 [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0] | Fitness : 12
-Individual # 2 [1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0] | Fitness : 8
-Individual # 3 [1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1] | Fitness : 8
-Individual # 4 [0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0] | Fitness : 5
-Individual # 5 [0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0] | Fitness : 7
+Individual # 1 [1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0] | Fitness : 8
+Individual # 2 [0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1] | Fitness : 6
+Individual # 3 [1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1] | Fitness : 6
+Individual # 4 [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0] | Fitness : 12
+Individual # 5 [0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0] | Fitness : 6
 ***************************************************************************
-Solution found in generation 28
+Solution found in generation 24
 Fitness: 12
 Genes : [1 0 1 0 1 0 1 0 1 0 1 0 ]
 

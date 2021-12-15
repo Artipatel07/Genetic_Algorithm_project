@@ -9,23 +9,29 @@ public class Individual {
 	private int fitness = 0;
 	private List<Integer> genes = new ArrayList<>();
 	public static final int geneLength = 12;
+	/**
+	 * below list variable is final as the target output will be same throughout the
+	 * code, we are comparing the Individual fitness by comparing it with
+	 * unmodifiable List elements
+	 */
 
-	public static final List<Integer> FINAL_LIST = Collections.unmodifiableList(
-		    new ArrayList<Integer>() {{
-		        add(1);
-		        add(0);
-		        add(1);
-		        add(0);
-		        add(1);
-		        add(0);
-		        add(1);
-		        add(0);
-		        add(1);
-		        add(0);
-		        add(1);
-		        add(0);
-		        
-		    }});
+	public static final List<Integer> FINAL_LIST = Collections.unmodifiableList(new ArrayList<Integer>() {
+		{
+			add(1);
+			add(0);
+			add(1);
+			add(0);
+			add(1);
+			add(0);
+			add(1);
+			add(0);
+			add(1);
+			add(0);
+			add(1);
+			add(0);
+
+		}
+	});
 
 	public Individual() {
 		Random randomNum = new Random();

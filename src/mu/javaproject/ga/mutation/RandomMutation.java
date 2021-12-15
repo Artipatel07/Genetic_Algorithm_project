@@ -45,13 +45,7 @@ public class RandomMutation implements Mutation {
             population.getFittestIndividual().getGenes().set(mutationPoint, 1);
         	}
         }
-//        mutationPoint = randomNum.nextInt(Individual.geneLength);
-//
-//        if (population.getSecondFittestIndividual().getGenes().get(mutationPoint) == 0) {
-//            population.getSecondFittestIndividual().getGenes().set(mutationPoint, 1);
-//        } else {
-//            population.getSecondFittestIndividual().getGenes().set(mutationPoint, 0);
-//        }
+
         return population;
     }
 }

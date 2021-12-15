@@ -1,6 +1,7 @@
 package mu.javaproject.ga.factory;
 
 import mu.javaproject.ga.crossover.Crossover;
+
 import mu.javaproject.ga.crossover.TwoPointCrossover;
 import mu.javaproject.ga.mutation.Mutation;
 import mu.javaproject.ga.mutation.SubstituteMutation;
@@ -8,10 +9,18 @@ import mu.javaproject.ga.population.Population;
 import mu.javaproject.ga.selection.RankSelection;
 import mu.javaproject.ga.selection.Selection;
 
-public class SpecificTypeFactory extends GeneticFactory {
+/**
+ * 
+ * This factory executes runtime, it executes genetic operations such as
+ * Selection, Crossover and mutation, and the operations are RankedSelection,
+ * Two point Selection and Substitute Mutation
+ *
+ */
+
+public class RegularTypeFactory extends GeneticFactory {
 	Population population;
 
-	SpecificTypeFactory(Population population) {
+	RegularTypeFactory(Population population) {
 		this.population = population;
 		selectionChoice();
 		crossoverChoice();

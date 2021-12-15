@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-
 public class Population {
 
 	private List<Individual> individuals = new ArrayList<>();
@@ -14,6 +13,7 @@ public class Population {
 	private int fittest = 0;
 	private static Population _instance = null;
 	int maximumFitIndex = 0;
+
 	// Single Instance concurrency across the application is maintained as every
 	// class is working on the same population.
 	// Making the constructor private so that only one instance of the Population
@@ -48,7 +48,7 @@ public class Population {
 		if (initialise) {
 			for (int i = 0; i < size; i++) {
 				tempArray.add(new Individual());
-				// tempArray[i] = new Individual();
+				
 			}
 			this.setIndividuals(tempArray);
 		}
@@ -77,8 +77,9 @@ public class Population {
 			}
 		}
 		setFittest(getIndividuals().get(maximumFitIndex).getFitness());
-		
+
 	}
+
 	public Individual getMostFittest() {
 		return getIndividuals().get(maximumFitIndex);
 	}

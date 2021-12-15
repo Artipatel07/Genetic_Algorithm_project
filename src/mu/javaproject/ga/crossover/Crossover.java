@@ -1,4 +1,5 @@
 package mu.javaproject.ga.crossover;
+
 import mu.javaproject.ga.population.Population;
 
 /**
@@ -6,7 +7,7 @@ import mu.javaproject.ga.population.Population;
  * -1)OnePointCrossover,2)TwoPointCrossover are implemented by the sub class
  * which invokes this interface
  *
-  */
+ */
 
 public interface Crossover {
 

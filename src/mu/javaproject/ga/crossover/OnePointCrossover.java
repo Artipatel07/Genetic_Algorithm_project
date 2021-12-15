@@ -6,8 +6,9 @@ import mu.javaproject.ga.population.Individual;
 import mu.javaproject.ga.population.Population;
 
 /**
- * This class is used to take one single point  * from the parents and to swap the
- * genes to perform the crossover operation,  * it implements @see GeneticFunctions
+ * This class is used to take one single point * from the parents and to swap
+ * the genes to perform the crossover operation, * it implements @see
+ * GeneticFunctions
  *
  */
 
