@@ -10,6 +10,7 @@ import mu.javaproject.ga.population.Individual;
 import mu.javaproject.ga.population.Population;
 
 /**
+need to change this into the class
  * This is the runner class for the project. It will first create a SINGLE
  * instance(Singleton) of Population class to make sure every class is working
  * on the same population instance. I have created the Factory to be

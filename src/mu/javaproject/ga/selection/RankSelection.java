@@ -4,9 +4,10 @@ package mu.javaproject.ga.selection;
 import mu.javaproject.ga.population.Population;
 
 /**
- * This class implements @see GeneticFunctions and is used to perform a selection process by selecting the first and second fittest individuals   * from a population.
+ * This class implements @see GeneticFunctions and is used to perform a selection process by 
+ * selecting the first and second fittest individuals    
+ * from a population.
  *
- * @author ASHI CHAUHAN,21250591
  */
 
 public class RankSelection implements Selection {

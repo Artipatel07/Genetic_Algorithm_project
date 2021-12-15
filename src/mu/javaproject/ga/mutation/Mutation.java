@@ -7,7 +7,6 @@ import mu.javaproject.ga.population.Population;
  * every subclass should implemente the muation method.
  * Also,This class takes in a population and returns it.
  *
- * @author ARTI PATEL,21250524
  */
 
 public interface Mutation {

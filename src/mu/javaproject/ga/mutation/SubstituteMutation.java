@@ -7,7 +7,6 @@ import mu.javaproject.ga.population.Population;
 
 /**
  * This class implements @see GeneticFunctions and is used to perform permutation mutations.
- * @author ARTI PATEL,21250524
  */
 
 public class SubstituteMutation implements Mutation {

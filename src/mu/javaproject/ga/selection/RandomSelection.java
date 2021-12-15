@@ -10,7 +10,6 @@ import mu.javaproject.ga.population.Population;
  * This class is used to perform a selection process by selecting two random choices.
  * It implements @see GeneticFunctions among individuals in the population.
  *
- * @author ASHI CHAUHAN,21250591
  */
 
 public class RandomSelection implements Selection {

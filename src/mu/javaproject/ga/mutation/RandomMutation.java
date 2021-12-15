@@ -9,7 +9,6 @@ import mu.javaproject.ga.population.Population;
  * RandomMutation is a class that deals with random mutations.
  * This is one method of mutation, which is completely random. It belongs to the Mutation interface as a subclass.
  *
- * @author ARTI PATEL,20251514
  */
 
 public class RandomMutation implements Mutation {

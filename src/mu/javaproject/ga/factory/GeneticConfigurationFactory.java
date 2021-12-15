@@ -15,18 +15,15 @@ import mu.javaproject.ga.selection.RankSelection;
 import mu.javaproject.ga.selection.Selection;
 
 /**
- * GeneticAlgorithmRunner is the main class to perform all the operations This
- * class is the implementation of factory design pattern which handles the
- * instantiation (creation) of the different Selection, Reproduction
- * (/Crossover) or Mutation objects.
+ * The core class for all operations is GeneticAlgorithmRunner. 
+ * This class implements the factory design pattern, which manages the instantiation  *(creation) of various Selection, Reproduction (/Mutation)   * or (/Crossover) objects.
  *
- * @author AJAY GOVINDASAMY ,20251024
  */
 
 public class GeneticConfigurationFactory extends GeneticFactory {
 	/**
-	 * This method will generate a new class of one of the crossover classes that
-	 * are for this genetic configuration setup.
+	 * This function will create a new crossover class for one of 
+	 * the genetic configuration setup's crossover classes..
 	 *
 	 * @param type Population population
 	 * @return Selection

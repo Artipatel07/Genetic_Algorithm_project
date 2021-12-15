@@ -9,16 +9,15 @@ import mu.javaproject.ga.population.Population;
 import mu.javaproject.ga.selection.Selection;
 
 /**
- * This is the GeneticFactory class which is the Abstract factory pattern and
- * this is the place where the user communicate to and asks for a specific
- * version of a Genetic algorithm. executeGeneticOperations() is the method
- * which creates objects of Selection, Crossover and Mutation It is called based
- * on the input passed from the user in GeneticAlgorithmRunner.java Each type of
- * selection, crossover and mutation is specific to the type of configuration
- * chosen. Also includes 3 abstract methods and the sub class which extends
- * GeneticFactory must implement the abstract methods
+ * This is the Abstract factory pattern's GeneticFactory class, which is where the user communicates with and requests 
+ * a specific version of a *Genetic algorithm. 
+ * executeGeneticOperations() is a method for creating Selection, Crossover, and Mutation objects. 
+ * In GeneticAlgorithmRunner.java, it is called depending 
+ * on the user's input. The kind of configuration 
+ * selected determines which types of 
+ * selection, crossover, and mutation are used. There are also three abstract methods, as well as a subclass that extends 
+ * GeneticFactory, which must be implemented.
  *
- * @author AJAY GOVINDASAMY ,20251024
  */
 
 public abstract class GeneticFactory {
@@ -27,9 +26,10 @@ public abstract class GeneticFactory {
 	
 
 	/**
-	 * Main method, depending on the configuration that was instantiated in
-	 * GeneticAlgorithmRunner, it will call specific methods styled for that
-	 * configuration.
+	 * The main method will call particular methods styled 
+	 * for that configuration, based on the configuration that 
+	 * was created in 
+	 * GeneticAlgorithmRunner.
 	 *
 	 * @param type,       the type of Selection to perform
 	 * @param point,      the type of Point to perform.
@@ -46,8 +46,8 @@ public abstract class GeneticFactory {
 	}
 
 	/**
-	 * This method is defined in all relevant configs. Each one alters this to suit
-	 * their needs.
+	 * In all relevant configs, this method is defined. 
+	 * This is changed by each individual to fit their own needs.
 	 *
 	 * @param type
 	 * @param population
@@ -56,8 +56,8 @@ public abstract class GeneticFactory {
 	protected abstract Selection selectionChoice();
 
 	/**
-	 * This method is defined in all relevant configs. Each one alters this to suit
-	 * their needs.
+	 * In all relevant configs, this method is defined. 
+	 * This is changed by each individual to fit their own needs.
 	 *
 	 * @param point
 	 * @param population
@@ -67,8 +67,8 @@ public abstract class GeneticFactory {
 	protected abstract Crossover crossoverChoice();
 
 	/**
-	 * This method is defined in all relevant configs. Each one alters this to suit
-	 * their needs.
+	 * In all relevant configs, this method is defined. 
+	 * This is changed by each individual to fit their own needs.
 	 *
 	 * @param mutationPoint
 	 * @param population
