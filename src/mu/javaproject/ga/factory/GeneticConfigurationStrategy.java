@@ -55,9 +55,9 @@ public class GeneticConfigurationStrategy {
 
 	public GeneticFactory executeGeneticOperations(Population population) {
 		if (randomOperationType() == OperationType.RANDOM) {
-			return new RandomTypeFactory(population);
+			return (GeneticFactory) new RandomTypeFactory(population);
 		} else {
-			return new RegularTypeFactory(population);
+			return (GeneticFactory) new RegularTypeFactory(population);
 		}
 	}
 

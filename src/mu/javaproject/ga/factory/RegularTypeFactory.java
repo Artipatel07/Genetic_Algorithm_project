@@ -17,7 +17,7 @@ import mu.javaproject.ga.selection.Selection;
  *
  */
 
-public class RegularTypeFactory extends GeneticFactory {
+public class RegularTypeFactory implements GeneticFactory {
 	Population population;
 
 	RegularTypeFactory(Population population) {
@@ -28,19 +28,19 @@ public class RegularTypeFactory extends GeneticFactory {
 	}
 
 	@Override
-	protected Selection selectionChoice() {
+	public Selection selectionChoice() {
 		// TODO Auto-generated method stub
 		return new RankSelection(population);
 	}
 
 	@Override
-	protected Crossover crossoverChoice() {
+	public Crossover crossoverChoice() {
 		// TODO Auto-generated method stub
 		return new TwoPointCrossover(population);
 	}
 
 	@Override
-	protected Mutation mutationChance() {
+	public Mutation mutationChance() {
 		// TODO Auto-generated method stub
 		return new SubstituteMutation(population);
 	}

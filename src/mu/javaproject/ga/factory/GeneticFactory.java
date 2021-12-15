@@ -14,7 +14,7 @@ import mu.javaproject.ga.selection.Selection;
  * 
  */
 
-public abstract class GeneticFactory {
+interface GeneticFactory {
 
 //	GeneticFactory random;
 
@@ -26,7 +26,7 @@ public abstract class GeneticFactory {
 	 * @param population
 	 * @return Selection
 	 */
-	protected abstract Selection selectionChoice();
+	 Selection selectionChoice();
 
 	/**
 	 * In all relevant configs, this method is defined. This is changed by each
@@ -37,7 +37,7 @@ public abstract class GeneticFactory {
 	 * @return Crossover
 	 */
 
-	protected abstract Crossover crossoverChoice();
+	Crossover crossoverChoice();
 
 	/**
 	 * In all relevant configs, this method is defined. This is changed by each
@@ -48,6 +48,6 @@ public abstract class GeneticFactory {
 	 * @return Mutation
 	 */
 
-	protected abstract Mutation mutationChance();
+	Mutation mutationChance();
 
 }

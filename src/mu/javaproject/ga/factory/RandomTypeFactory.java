@@ -19,7 +19,7 @@ import mu.javaproject.ga.selection.Selection;
  *
  */
 
-public class RandomTypeFactory extends GeneticFactory {
+public class RandomTypeFactory implements GeneticFactory {
 	Population population;
 
 	RandomTypeFactory(Population population) {
@@ -30,19 +30,19 @@ public class RandomTypeFactory extends GeneticFactory {
 	}
 
 	@Override
-	protected Selection selectionChoice() {
+	public Selection selectionChoice() {
 
 		return new RandomSelection(population);
 	}
 
 	@Override
-	protected Crossover crossoverChoice() {
+	 public Crossover crossoverChoice() {
 
 		return new OnePointCrossover(population);
 	}
 
 	@Override
-	protected Mutation mutationChance() {
+	public Mutation mutationChance() {
 
 		return new RandomMutation(population);
 	}
