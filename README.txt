@@ -126,11 +126,14 @@ We have used Interfaces and abstract class to achieve Data abstraction throughou
 */
 
 6.Data Encapsulation__We have used private data member and public getter and setter methods to get and set the value of these variables throughout the code to achieve the Data Encapsulation.__Separation of behavior and implementation particularly with respect to the Strategy & Factory design patterns__
-Hierarchy of classes is maintained. For repeating code, we have combined it in the Base class.__Data Structure used__
+Hierarchy of classes is maintained. For repeating code, we have combined it in the Base class.
+
+__Data Structure used__
 We have used List as Individual which contains random 0's and 1's. Also Population class contains List of Individuals.
 /*
 * private List<Integer> genes = new ArrayList<>(); //List of genes in Individual class
 * private List<Individual> individuals = new ArrayList<>(); // list of Individual in Population class
+* Also we have used Comparator interface to sort the population using fitness.
 *
 */
 

@@ -1,6 +1,8 @@
 package mu.javaproject.ga.population;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 
@@ -48,7 +50,7 @@ public class Population {
 		if (initialise) {
 			for (int i = 0; i < size; i++) {
 				tempArray.add(new Individual());
-				
+
 			}
 			this.setIndividuals(tempArray);
 		}
@@ -142,6 +144,7 @@ public class Population {
 	 */
 
 	public List<Individual> getIndividuals() {
+		sortByFitness(_instance);
 		return individuals;
 	}
 
@@ -184,9 +187,9 @@ public class Population {
 	}
 
 	/**
-	 * setter for fittest
+	 * setter for fit-test
 	 * 
-	 * @param fittest value of the fittest of the population
+	 * @param fittest value of the fit-test of the population
 	 */
 
 	public void setFittest(int fittest) {
@@ -214,14 +217,32 @@ public class Population {
 	}
 
 	/**
-	 * getter to calculate the second fittest of every single individual in the
+	 * getter to calculate the second fit-test of every single individual in the
 	 * population
 	 * 
-	 * @return second fittest individual amoung population
+	 * @return second fit-test individual among population
 	 */
 
 	public Individual getSecondFittestIndividual() {
 		return secondFittestIndividual;
+	}
+
+	public void sortByFitness(Population population) {
+		Collections.sort(individuals, new Comparator<Individual>() {
+
+			@Override
+			public int compare(Individual o1, Individual o2) {
+
+				if (o1.getFitness() == o2.getFitness())
+					return 0;
+				else if (o1.getFitness() < o2.getFitness())
+					return 1;
+				else
+					return -1;
+			}
+
+		});
+
 	}
 
 	/**
